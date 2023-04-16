@@ -36,7 +36,7 @@ const Welcome = ({navigation}) => {
       <View>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.push('Home')}>
+          onPress={() => navigation.push('Login')}>
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
       </View>

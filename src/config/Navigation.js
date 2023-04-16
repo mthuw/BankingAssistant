@@ -5,7 +5,7 @@ import Welcome from '../screens/Welcome';
 import Home from '../screens/Home';
 import ChatBot from '../screens/ChatBot';
 import Transfer from '../screens/Transfer';
-
+import Login from '../screens/Login';
 
 const MainStack = createNativeStackNavigator();
 const ModalStack = createNativeStackNavigator();
@@ -14,6 +14,11 @@ const MainStackScreen = () => (
     <MainStack.Screen
       name="Welcome"
       component={Welcome}
+      options={{headerShown: false}}
+    />
+     <MainStack.Screen
+      name="Login"
+      component={Login}
       options={{headerShown: false}}
     />
     <MainStack.Screen
