@@ -1,15 +1,17 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 
 const styles = StyleSheet.create({
   title: {
     fontWeight: 'bold',
     fontSize: 18,
     paddingVertical: 10,
+    
   },
   iconSize: {
     width: 50,
     height: 50,
+    borderRadius: 100,
   },
   list: {
     flexDirection: 'row',
@@ -18,13 +20,14 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   itemText: {
-    marginTop: 5,
+    marginTop: 10,
+    fontWeight: 'bold',
   },
 });
 const listService = [
   {
-    name: 'ChatBot',
-    icon: require('../assets/chatBot.png'),
+    name: 'Payment',
+    icon: require('../assets/payment.png'),
   },
   {
     name: 'Transfer',
@@ -52,7 +55,9 @@ const renderServiceItem = item => {
   return (
     <View key={item.name}>
       <View>
-        <Image source={item.icon} style={styles.iconSize} />
+        <TouchableOpacity onPress={item.onPress}>
+          <Image source={item.icon} style={styles.iconSize} />
+        </TouchableOpacity>
       </View>
       <Text style={styles.itemText}>{item.name}</Text>
     </View>

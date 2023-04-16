@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+    "type": "service_account",
+    "project_id": "newagent-w9pp",
+    "private_key_id": "c900ff3c7a2292c3b131c1a83e419d81f51ab08a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCflWUJLy1HKITi\n/GiqOoBsGmI8PItXbn6L0o62sQyvUD00wOu/fu6y6ujBE21vaiauM41q5ZYJTbWl\nUecxiFHJfVbgJ30qC0FSt1+RCiUcK3G8tp7uevQg1jOZksz0WuBda38WeqOBRS+w\ne4qLxmb4FUo9R2ZMj0+6cizs6M7HRhbcquSCfsha3Nu9zIuAouanvLZz/tywfgQ9\nOYtt0IoqKJu60qHdFbZj6to1ikpMkqmxUu3+mvboZm95iT5rZ/Mjj3YVZIeL/TEM\nKTi0UMrREfXb1OHsdJVeQJDsOGFy8FXAHSvkjmVrEFFas6L/C0nfKsM+k1nF8uj7\nbjZEjtQdAgMBAAECgf97de5ROudMpf4o8wGUsR+pnzGZvegPdSVyByzwRpeX7cL6\nqZu5mU9nqnHZmJGuIJxafoe/Vm2u4WG0y++tqZ6AUdtkVrbiUCgrOc9SH3jrtc0d\nzw7Q407Cw2bS6T/DkzWsLRqI5gMK1Pvlfzy+ygb8A7V6CHvxvybE0Mkp1WTO4bGr\nIYo516JFqioDWz84SzWlzsR5CCRiuYRPYM5+SzlVAwlz6bsJjimv4p7S2ZT4Jb7F\n8HhrnUXSyHg0NSYqAKJi+vdp2SgAabdvtGmpuAt++A0Sz61ID6fntSd6FwS0yuNM\nQiZ1xC/qQqoDPDjQ1qaW2DQCVxETJtoFHW8ysocCgYEA0t3D8MSmeSDEl+uOifSc\nt8B8tnQDB++y2zb//BAFVykQkloWv3RNobDJQOUmED5+/CRnWkofhiBL/Akw49l0\nmzbXNxWrSkJOjj+eNv42/5T5wh5MKS9PxfufmtU8rhaB0v9L0o0yLYccqJPsH3Dg\nzEwzXl3KSZoczsBmzX4GGrcCgYEAwb2jZb5/8ynEZv5OeSeCpeUlLmKfMTTdq2KQ\nTGQOD14kIFSpse4xT1eDJjiW1K2zGrs2zjIJ8p8ZkdS4jYFPcrWQzBkGRb1ryWln\ngzX3anIBYLW9wJb+HTLDyK7nPba5kssc4zhNhcjNyQZjihiJQA4gF0w6WhnjjdZA\nfB5Ug8sCgYBGzSl+TTksUKFR9UjN73EzjZESXg+qeYRPcL8w7lwssOAck90xeaab\nVNWuUYKfT6ypkruVKHA/Q9bfkGJ3DsvFVfubRk5WR79Cqf/ArUjgNjBKSov+BCG/\n80Xa4iBWv73lj8zwrHIdsVEhFVHiGK+SST+yPsGuRu3HSfj6pIb+LwKBgAuu09ue\n0ThonF9ZloHX0BkQ6F0TtWXSOkvLdcglgHOMycDpWhJQush+DnqPjwjkMJi8EWH9\nwnvO/Eu++CIQWiogqMql96rc8VMD+CoBZxoUJeEfFII4mLpKBWRkp60hB6/Cb8uD\n6ajXoxEsQXRiZmRmdajx/9LPHNnAwcK6UX5hAoGAOjwI9VwMWEmgOpv8sUNkZdMB\nnCrZuU0Ref31+LlCp6tt4dEzRKi8YIOmofQi6QXKDXZ2eooKLpdqDd9F+2qcnN6n\nyhm/lCprUKFFA3TczTKadTqnei6i99r4Sg1lQu9jMvGsAFV7KEfquQp79htjA+bH\n43C74SUeezJTQhNWUZo=\n-----END PRIVATE KEY-----\n",
+    "client_email": "rocker-fintech@newagent-w9pp.iam.gserviceaccount.com",
+    "client_id": "106165686191572285940",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rocker-fintech%40newagent-w9pp.iam.gserviceaccount.com"
+  }

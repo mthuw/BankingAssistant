@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ImageBackground,
   View,
@@ -7,34 +7,36 @@ import {
   SafeAreaView,
   Text,
   StatusBar,
-} from "react-native";
+} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
   button: {
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
     paddingHorizontal: 14,
     paddingVertical: 12,
     borderRadius: 100,
-    position: "absolute",
+    position: 'absolute',
     marginTop: 500,
     marginHorizontal: 130,
   },
   buttonText: {
-    textAlign: "center",
-    fontWeight: "bold",
+    textAlign: 'center',
+    fontWeight: 'bold',
   },
 });
-const Welcome = () => {
+const Welcome = ({navigation}) => {
   return (
     <ImageBackground
       style={styles.container}
-      source={require("../assets/background.jpeg")}
-    >
+      source={require('../assets/background.jpeg')}>
+      <StatusBar barStyle="light-content" translucent={true}></StatusBar>
       <View>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.push('Home')}>
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
       </View>
